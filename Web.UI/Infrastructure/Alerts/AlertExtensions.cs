@@ -10,7 +10,7 @@ namespace Web.UI.Infrastructure.Alerts
     {
         const string Alerts = "_Alerts";
 
-        public static List<Alert> GetAlerts(this ViewDataDictionary tempData)
+        public static List<Alert> GetAlerts(this TempDataDictionary tempData)
         {
             if (!tempData.ContainsKey(Alerts))
             {
