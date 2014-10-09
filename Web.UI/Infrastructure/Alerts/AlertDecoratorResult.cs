@@ -22,7 +22,7 @@ namespace Web.UI.Infrastructure.Alerts
 
         public override void ExecuteResult(ControllerContext context)
         {
-            var alerts = context.Controller.TempData.GetAlerts();
+            var alerts = context.Controller.ViewData.GetAlerts();
             alerts.Add(new Alert(AlertClass, Message));
             InnerResult.ExecuteResult(context);
         }
