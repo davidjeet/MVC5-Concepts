@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Test Alerts";
+}
+
+<h2>Test Alerts</h2>
+
+@Html.Partial("_Alerts")
+
+@using (Html.BeginForm())
+{
+    <input type="text" id="id" name="id" value="test" />
+    <input type="submit" value="Test Alert" />
+}
+
+@section scripts{
+
+}
