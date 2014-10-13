@@ -5,6 +5,7 @@ using System.Web;
 
 namespace Web.UI.Infrastructure.Alerts
 {
+    [Serializable]
     public class Alert
     {
         public string AlertClass { get; set; }

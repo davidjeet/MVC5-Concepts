@@ -16,7 +16,8 @@ namespace Web.UI.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            var x = 3;
+            
             return View();
         }
 

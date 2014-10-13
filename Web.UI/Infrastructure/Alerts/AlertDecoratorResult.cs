@@ -24,7 +24,7 @@ namespace Web.UI.Infrastructure.Alerts
         {
             var alerts = context.Controller.TempData.GetAlerts();
             alerts.Add(new Alert(AlertClass, Message));
-            InnerResult.ExecuteResult(context);
+            InnerResult.ExecuteResult(context);            
         }
     }
 }
