@@ -175,9 +175,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\TestArea\Controllers\AccountController.cs" />
+    <Compile Include="Areas\TestArea\Controllers\HomeController.cs" />
+    <Compile Include="Areas\TestArea\TestAreaAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TestAsyncController.cs" />
     <Compile Include="Controllers\TestTypeScriptController.cs" />
     <Compile Include="Controllers\TestAlertsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -187,6 +191,7 @@
     <Compile Include="Infrastructure\Alerts\AlertDecoratorResult.cs" />
     <Compile Include="Infrastructure\Alerts\AlertExtensions.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Candidate.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -212,6 +217,12 @@
     <Content Include="Scripts\app\HelloWorld.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\TestArea\Views\web.config" />
+    <Content Include="Areas\TestArea\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\TestArea\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\TestArea\Views\Home\Index.cshtml" />
+    <Content Include="Areas\TestArea\Views\Home\Success.cshtml" />
+    <Content Include="Areas\TestArea\Views\Account\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jasmine-html.js" />
     <Content Include="Scripts\jasmine.js" />
@@ -240,8 +251,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
@@ -270,9 +279,11 @@
     <Content Include="Views\TestAlerts\Index.cshtml" />
     <Content Include="Views\Shared\_Alerts.cshtml" />
     <Content Include="Views\TestTypeScript\Index.cshtml" />
+    <Content Include="Views\TestAsync\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\TestArea\Models\" />
     <Folder Include="Infrastructure\Controllers\" />
   </ItemGroup>
   <ItemGroup>

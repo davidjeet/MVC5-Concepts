@@ -1,3 +1,6 @@
+C:\Github\MVC5-Concepts\Web.UI\bin\EntityFramework.xml
+C:\Github\MVC5-Concepts\Web.UI\bin\phantomjs.exe
+C:\Github\MVC5-Concepts\Web.UI\bin\phantomjs-license.txt
 C:\Github\MVC5-Concepts\Web.UI\bin\Web.UI.dll.config
 C:\Github\MVC5-Concepts\Web.UI\bin\Web.UI.dll
 C:\Github\MVC5-Concepts\Web.UI\bin\Web.UI.pdb
@@ -42,7 +45,6 @@ C:\Github\MVC5-Concepts\Web.UI\bin\Newtonsoft.Json.xml
 C:\Github\MVC5-Concepts\Web.UI\bin\System.Net.Http.Formatting.xml
 C:\Github\MVC5-Concepts\Web.UI\bin\System.Web.Http.xml
 C:\Github\MVC5-Concepts\Web.UI\bin\System.Web.Http.WebHost.xml
-C:\Github\MVC5-Concepts\Web.UI\bin\EntityFramework.xml
 C:\Github\MVC5-Concepts\Web.UI\bin\EntityFramework.SqlServer.xml
 C:\Github\MVC5-Concepts\Web.UI\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Github\MVC5-Concepts\Web.UI\bin\Microsoft.AspNet.Identity.Owin.xml
@@ -56,9 +58,8 @@ C:\Github\MVC5-Concepts\Web.UI\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Github\MVC5-Concepts\Web.UI\bin\Microsoft.Owin.Security.Google.xml
 C:\Github\MVC5-Concepts\Web.UI\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Github\MVC5-Concepts\Web.UI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Github\MVC5-Concepts\Web.UI\obj\Debug\Web.UI.csprojResolveAssemblyReference.cache
 C:\Github\MVC5-Concepts\Web.UI\obj\Debug\Web.UI.dll
 C:\Github\MVC5-Concepts\Web.UI\obj\Debug\Web.UI.pdb
 C:\Github\MVC5-Concepts\Web.UI\bin\BrockAllen.CookieTempData.dll
 C:\Github\MVC5-Concepts\Web.UI\bin\BrockAllen.CookieTempData.pdb
-C:\Github\MVC5-Concepts\Web.UI\bin\phantomjs.exe
-C:\Github\MVC5-Concepts\Web.UI\bin\phantomjs-license.txt

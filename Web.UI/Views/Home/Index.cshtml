@@ -1,9 +1,18 @@
 ﻿
+<style>
+    li {
+        margin: 15px 0;
+    }
+</style>
 
 <p>
+    <div>&nbsp; </div>
     <ul>
-        <li>@Html.ActionLink("Test Alerts", "Index", "TestAlerts") <br/> </li>
+
+        <li>@Html.ActionLink("Test Alerts", "Index", "TestAlerts") <br /> </li>
         <li>@Html.ActionLink("Test TypeScript", "Index", "TestTypeScript") <br /> </li>
+        <li>@Html.ActionLink("Test MVC 'async' Controller", "Index", "TestAsync") <br /> </li>
+        <li>@Html.ActionLink("Test 'Areas' concept", "Index", "Home", new { Area = "TestArea" }, new { }) <br /> </li>
     </ul>
 
 </p>
