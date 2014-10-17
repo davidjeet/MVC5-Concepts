@@ -1,0 +1,19 @@
+﻿h2 {
+  color: #4d926f;
+}
+h3 {
+  font-style: italic;
+  color: #4d926f;
+}
+.gangnamstyle {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-color: red;
+}
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-color: red;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=gangnam.css.map */

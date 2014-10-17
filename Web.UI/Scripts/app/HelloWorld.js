@@ -6,7 +6,7 @@
             this.greeting = message;
         }
         Greeter.prototype.greet = function () {
-            return "Hello, " + this.greeting;
+            return "!Hello, " + this.greeting;
         };
 
         Greeter.prototype.greet2 = function (tmp) {

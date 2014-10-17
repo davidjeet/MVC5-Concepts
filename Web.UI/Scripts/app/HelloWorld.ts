@@ -9,13 +9,13 @@
         }
 
         greet() {
-            return "Hello, " + this.greeting;
+            return "!Hello, " + this.greeting;
         }
 
         greet2(tmp : number) {
             return 3 * tmp;
         }
-    }
+    } 
 }
 var greeter = new Sayings.Greeter("world");
 
